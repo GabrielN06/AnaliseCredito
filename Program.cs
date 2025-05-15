@@ -15,14 +15,14 @@
        
         if (valorParcela <= limiteParcela)
         {
-            Console.WriteLine("Empréstimo aprovado!");
-            Console.WriteLine($"Valor da parcela: R$ {valorParcela:F2}"); 
+            Console.WriteLine("\nEmpréstimo aprovado!");
+            Console.WriteLine($"Valor da parcela: {valorParcela:C2}"); 
         }
         else
         {
-            Console.WriteLine("Empréstimo negado.");
-            Console.WriteLine($"Valor das parcelas: R$ {valorParcela:F2}");
-            Console.WriteLine($"Limite máximo da parcela (30% da renda): R$ {limiteParcela:F2}");
+            Console.WriteLine("\nEmpréstimo negado.");
+            Console.WriteLine($"Valor das parcelas: {valorParcela:C2}");
+            Console.WriteLine($"Limite máximo da parcela (30% da renda): {limiteParcela:C2}");
         }
     
 
